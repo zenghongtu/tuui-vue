@@ -19,11 +19,15 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-module.exports = {
-  version: '0.0.1',
+const version = '0.0.1';
+
+export {
   install,
+  version,
   Button,
 };
 
-module.exports.default = module.exports;
-
+export default {
+  version,
+  install,
+};
