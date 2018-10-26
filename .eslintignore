@@ -6,3 +6,5 @@ coverage
 *.scss
 *.woff
 *.ttf
+vue.config.js
+build
