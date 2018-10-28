@@ -3,9 +3,13 @@
  * Desc: index
  */
 import Button from './button/index';
+import ButtonGroup from './button-group/index';
+import ButtonList from './button-list/index';
 
 const components = [
   Button,
+  ButtonGroup,
+  ButtonList,
 ];
 
 
@@ -25,6 +29,8 @@ export {
   install,
   version,
   Button,
+  ButtonGroup,
+  ButtonList,
 };
 
 export default {

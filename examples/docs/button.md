@@ -5,7 +5,18 @@
 
 基础的按钮用法。
 
-<tu-button icon="fas fa-underline" color="dark" :round="true"  size="small"></tu-button>
+<tu-button icon="fas fa-underline" color="white" :round="true"  size="small"></tu-button>
+
+<tu-button-group :addon="true">
+    <tu-button icon="fas fa-underline" color="white" size="small">hello</tu-button>
+    <tu-button icon="fas fa-underline" color="dark" size="small">hello</tu-button>
+    <tu-button icon="fas fa-underline" color="light" size="small">hello</tu-button>
+</tu-button-group>
+
+<tu-button-list :addon="true" align="right">
+    <tu-button icon="fas fa-underline" color="white" size="small" :selected="true">hello</tu-button>
+    <tu-button icon="fas fa-underline" color="dark" size="small">hello</tu-button>
+</tu-button-list>
 
 :::demo 使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
 ```html
@@ -27,3 +38,7 @@
 | icon | 图标类名 | string  | - | - |
 | autofocus | 是否默认聚焦 | boolean |-| false |
 | native-type | 原生 type 属性 | string | button / submit / reset | button |
+| addon | 是否扩展(group/list) | boolean |-| false |
+| align | 对齐方式(list) |  string | centered / right | - |
+| selected | 是否选中 | boolean |-| false |
+
