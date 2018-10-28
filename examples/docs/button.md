@@ -5,7 +5,7 @@
 
 基础的按钮用法。
 
-<tu-button>hello world</tu-button>
+<tu-button icon="fas fa-underline" color="dark" :round="true"  size="small"></tu-button>
 
 :::demo 使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
 ```html
@@ -16,13 +16,14 @@
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
-| size     | 尺寸   | string  |   medium / small / mini            |    —     |
-| type     | 类型   | string    |   primary / success / warning / danger / info / text |     —    |
-| plain     | 是否朴素按钮   | boolean    | — | false   |
-| round     | 是否圆角按钮   | boolean    | — | false   |
-| circle     | 是否圆形按钮   | boolean    | — | false   |
-| loading     | 是否加载中状态   | boolean    | — | false   |
-| disabled  | 是否禁用状态    | boolean   | —   | false   |
-| icon  | 图标类名 | string   |  —  |  —  |
-| autofocus  | 是否默认聚焦 | boolean   |  —  |  false  |
+| color | 颜色 | string | white / light / dark / black / text / primary / link / info / success / warning / danger |     -     |
+| size  | 尺寸 | string | small / medium / large |    -     |
+| fullwidth | 流体按钮(最大化适应) | boolean | - | false |
+| plain | 是否朴素按钮   | boolean |-| false |
+| invert | 是否反向文字与边框颜色 | boolean | - | false |
+| round | 是否圆角按钮   | boolean |-| false |
+| state | 状态 | string | hover / focus / active / static / loading | - |
+| disabled | 是否禁用状态 | boolean |-| false |
+| icon | 图标类名 | string  | - | - |
+| autofocus | 是否默认聚焦 | boolean |-| false |
 | native-type | 原生 type 属性 | string | button / submit / reset | button |
