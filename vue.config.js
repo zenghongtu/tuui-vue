@@ -96,6 +96,7 @@ module.exports = {
       .loader('vue-markdown-loader/lib/markdown-compiler')
       .options(mdOptions);
     config.resolve.alias
-      .set('@', path.join(__dirname, 'examples'));
+      .set('@', path.join(__dirname, 'examples'))
+      .set('bulma', path.join(__dirname, 'node_modules/bulma'));
   },
 };
