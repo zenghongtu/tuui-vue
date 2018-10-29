@@ -25,6 +25,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "test" */ './docs/button.md'),
     },
     {
+      path: '/box',
+      name: 'box',
+      component: () => import(/* webpackChunkName: "test" */ './docs/box.md'),
+    },
+    {
       path: '/test',
       name: 'test',
       component: () => import(/* webpackChunkName: "test" */ './docs/test.md'),

@@ -15,6 +15,11 @@
           "desc": "Button 按钮",
           "name": "button",
           "path": "/button"
+        },
+        {
+          "desc": "Box",
+          "name": "box",
+          "path": "/box"
         }
       ]
     }
