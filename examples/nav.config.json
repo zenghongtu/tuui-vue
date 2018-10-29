@@ -1,28 +1,20 @@
 {
-  "开发指南": [
+  "documentation": [
     {
-      "name": "giud",
-      "path": "/giud",
-      "desc": "介绍"
-    }
-  ],
-  "组件": [
-    {
-      "desc": "基础组件",
-      "path": "/component",
-      "items": [
+      "name": "elements",
+      "groups": [
         {
-          "desc": "Button 按钮",
+          "description": "Button 按钮",
           "name": "button",
           "path": "/button"
         },
         {
-          "desc": "Box",
+          "description": "Box",
           "name": "box",
           "path": "/box"
         },
         {
-          "desc": "Content",
+          "description": "Content",
           "name": "content",
           "path": "/content"
         }
