@@ -40,18 +40,18 @@ const registerRoute = (navConfig) => {
 const routes = registerRoute(config);
 
 const generateMiscRoutes = function () {
-  const aboutRoute = {
-    path: '/about',
-    name: 'about',
-    component: load('About'),
-  };
+  // const aboutRoute = {
+  //   path: '/about',
+  //   name: 'about',
+  //   component: load('About'),
+  // };
   const indexRoute = {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: load('Home'),
   };
 
-  return [aboutRoute, indexRoute];
+  return [indexRoute];
 };
 
 const defaultPath = {
