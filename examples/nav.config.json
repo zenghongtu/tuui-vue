@@ -20,6 +20,11 @@
           "desc": "Box",
           "name": "box",
           "path": "/box"
+        },
+        {
+          "desc": "Content",
+          "name": "content",
+          "path": "/content"
         }
       ]
     }

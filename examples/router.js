@@ -30,6 +30,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "test" */ './docs/box.md'),
     },
     {
+      path: '/content',
+      name: 'content',
+      component: () => import(/* webpackChunkName: "test" */ './docs/content.md'),
+    },
+    {
       path: '/test',
       name: 'test',
       component: () => import(/* webpackChunkName: "test" */ './docs/test.md'),

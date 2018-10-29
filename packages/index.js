@@ -6,12 +6,14 @@ import Button from './button/index';
 import ButtonGroup from './button-group/index';
 import ButtonList from './button-list/index';
 import Box from './box/index';
+import Content from './content/index';
 
 const components = [
   Button,
   ButtonGroup,
   ButtonList,
   Box,
+  Content,
 ];
 
 
@@ -34,6 +36,7 @@ export {
   ButtonGroup,
   ButtonList,
   Box,
+  Content,
 };
 
 export default {
