@@ -8,6 +8,7 @@ import ButtonList from './button-list/index';
 import Box from './box/index';
 import Content from './content/index';
 import Delete from './delete/index';
+import Icon from './icon/index';
 
 const components = [
   Button,
@@ -16,6 +17,7 @@ const components = [
   Box,
   Content,
   Delete,
+  Icon,
 ];
 
 
@@ -40,6 +42,7 @@ export {
   Box,
   Content,
   Delete,
+  Icon,
 };
 
 export default {

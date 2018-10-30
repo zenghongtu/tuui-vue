@@ -22,6 +22,11 @@
           "description": "Delete",
           "name": "delete",
           "path": "/delete"
+        },
+        {
+          "description": "Icon",
+          "name": "icon",
+          "path": "/icon"
         }
       ]
     }
