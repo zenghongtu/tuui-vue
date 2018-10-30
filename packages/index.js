@@ -10,6 +10,7 @@ import Content from './content/index';
 import Delete from './delete/index';
 import Icon from './icon/index';
 import Image from './image/index';
+import Notification from './notification/index';
 
 const components = [
   Button,
@@ -20,6 +21,7 @@ const components = [
   Delete,
   Icon,
   Image,
+  Notification,
 ];
 
 
@@ -46,6 +48,7 @@ export {
   Delete,
   Icon,
   Image,
+  Notification,
 };
 
 export default {

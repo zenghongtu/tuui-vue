@@ -32,6 +32,11 @@
           "description": "Image",
           "name": "image",
           "path": "/image"
+        },
+        {
+          "description": "Notification",
+          "name": "notification",
+          "path": "/notification"
         }
       ]
     }
