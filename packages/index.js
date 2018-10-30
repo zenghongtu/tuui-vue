@@ -7,6 +7,7 @@ import ButtonGroup from './button-group/index';
 import ButtonList from './button-list/index';
 import Box from './box/index';
 import Content from './content/index';
+import Delete from './delete/index';
 
 const components = [
   Button,
@@ -14,6 +15,7 @@ const components = [
   ButtonList,
   Box,
   Content,
+  Delete,
 ];
 
 
@@ -37,6 +39,7 @@ export {
   ButtonList,
   Box,
   Content,
+  Delete,
 };
 
 export default {

@@ -17,6 +17,11 @@
           "description": "Content",
           "name": "content",
           "path": "/content"
+        },
+        {
+          "description": "Delete",
+          "name": "delete",
+          "path": "/delete"
         }
       ]
     }
