@@ -27,6 +27,11 @@
           "description": "Icon",
           "name": "icon",
           "path": "/icon"
+        },
+        {
+          "description": "Image",
+          "name": "image",
+          "path": "/image"
         }
       ]
     }

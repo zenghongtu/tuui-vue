@@ -9,6 +9,7 @@ import Box from './box/index';
 import Content from './content/index';
 import Delete from './delete/index';
 import Icon from './icon/index';
+import Image from './image/index';
 
 const components = [
   Button,
@@ -18,6 +19,7 @@ const components = [
   Content,
   Delete,
   Icon,
+  Image,
 ];
 
 
@@ -43,6 +45,7 @@ export {
   Content,
   Delete,
   Icon,
+  Image,
 };
 
 export default {
