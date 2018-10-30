@@ -11,6 +11,7 @@ import Delete from './delete/index';
 import Icon from './icon/index';
 import Image from './image/index';
 import Notification from './notification/index';
+import Progress from './progress/index';
 
 const components = [
   Button,
@@ -22,6 +23,7 @@ const components = [
   Icon,
   Image,
   Notification,
+  Progress,
 ];
 
 
@@ -49,6 +51,7 @@ export {
   Icon,
   Image,
   Notification,
+  Progress,
 };
 
 export default {

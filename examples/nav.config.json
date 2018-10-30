@@ -37,6 +37,11 @@
           "description": "Notification",
           "name": "notification",
           "path": "/notification"
+        },
+        {
+          "description": "Progress",
+          "name": "progress",
+          "path": "/progress"
         }
       ]
     }
