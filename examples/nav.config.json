@@ -31,6 +31,16 @@
       ]
     },
     {
+      "name":"data",
+      "groups":[
+        {
+          "description": "Progress",
+          "name": "progress",
+          "path": "/progress"
+        }
+      ]
+    },
+    {
       "name": "elements",
       "groups": [
         {
