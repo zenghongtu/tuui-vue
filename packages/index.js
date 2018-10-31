@@ -14,6 +14,8 @@ import Notification from './notification/index';
 import Progress from './progress/index';
 import Col from './col/index';
 import Row from './row/index';
+import Breadcrumb from './breadcrumb/index';
+import BreadcrumbItem from './breadcrumb-item/index';
 
 const components = [
   Button,
@@ -28,6 +30,8 @@ const components = [
   Progress,
   Col,
   Row,
+  Breadcrumb,
+  BreadcrumbItem,
 ];
 
 
@@ -58,6 +62,8 @@ export {
   Progress,
   Col,
   Row,
+  Breadcrumb,
+  BreadcrumbItem,
 };
 
 export default {

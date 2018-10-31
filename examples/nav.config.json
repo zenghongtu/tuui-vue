@@ -21,6 +21,16 @@
       ]
     },
     {
+      "name":"navigation",
+      "groups":[
+        {
+          "description": "Breadcrumb",
+          "name": "breadcrumb",
+          "path": "/breadcrumb"
+        }
+      ]
+    },
+    {
       "name": "elements",
       "groups": [
         {
