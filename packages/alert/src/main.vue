@@ -4,7 +4,11 @@
 */
 
 <template>
-  <div class="notification" role="alert"  v-show="visible" :class="[color?'is-'+color:'']">
+  <transition name="fade">
+  <div class="notification" role="alert"
+       style="animation-duration: .3s"
+       v-show="visible"
+       :class="[color?'is-'+color:'']">
     <button class="delete" v-show="closable" @click="close()"></button>
     <div class="content">
       <h1 v-if="title || $slots.title">
@@ -15,6 +19,7 @@
       </slot>
     </div>
   </div>
+  </transition>
 </template>
 
 <script>
