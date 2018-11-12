@@ -16,6 +16,7 @@ import Col from './col/index';
 import Row from './row/index';
 import Breadcrumb from './breadcrumb/index';
 import BreadcrumbItem from './breadcrumb-item/index';
+import Alert from './alert/index';
 
 const components = [
   Button,
@@ -32,6 +33,7 @@ const components = [
   Row,
   Breadcrumb,
   BreadcrumbItem,
+  Alert,
 ];
 
 
@@ -64,6 +66,7 @@ export {
   Row,
   Breadcrumb,
   BreadcrumbItem,
+  Alert,
 };
 
 export default {
