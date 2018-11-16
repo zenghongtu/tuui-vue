@@ -18,6 +18,7 @@ import Row from './row/index';
 import Breadcrumb from './breadcrumb/index';
 import BreadcrumbItem from './breadcrumb-item/index';
 import Alert from './alert/index';
+import Modal from './modal/index';
 
 const components = [
   Button,
@@ -35,6 +36,7 @@ const components = [
   Breadcrumb,
   BreadcrumbItem,
   Alert,
+  Modal,
 ];
 
 
@@ -68,6 +70,7 @@ export {
   Breadcrumb,
   BreadcrumbItem,
   Alert,
+  Modal,
 };
 
 export default {
