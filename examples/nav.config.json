@@ -82,6 +82,10 @@
           "description": "Alert",
           "name": "alert",
           "path": "/alert"
+        },{
+          "description": "Modal",
+          "name": "modal",
+          "path": "/modal"
         }
       ]
     }
