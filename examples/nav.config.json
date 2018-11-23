@@ -67,16 +67,6 @@
           "description": "Image",
           "name": "image",
           "path": "/image"
-        },
-        {
-          "description": "Notification",
-          "name": "notification",
-          "path": "/notification"
-        },
-        {
-          "description": "Progress",
-          "name": "progress",
-          "path": "/progress"
         }
       ]
     },
@@ -87,10 +77,16 @@
           "description": "Alert",
           "name": "alert",
           "path": "/alert"
-        },{
+        },
+        {
           "description": "Modal",
           "name": "modal",
           "path": "/modal"
+        },
+        {
+          "description": "Notification",
+          "name": "notification",
+          "path": "/notification"
         }
       ]
     }

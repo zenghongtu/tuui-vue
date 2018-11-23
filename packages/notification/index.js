@@ -3,11 +3,6 @@
  * Desc: index
  */
 
-import Notification from './src/main.vue';
-
-/* istanbul ignore next */
-Notification.install = function (Vue) {
-  Vue.component(Notification.name, Notification);
-};
+import Notification from './src/main';
 
 export default Notification;
