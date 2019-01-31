@@ -9,7 +9,7 @@
           "path": "/layout"
         },
         {
-          "description": "Button 按钮",
+          "description": "Button",
           "name": "button",
           "path": "/button"
         },
@@ -48,11 +48,6 @@
     {
       "name": "elements",
       "groups": [
-        {
-          "description": "Box",
-          "name": "box",
-          "path": "/box"
-        },
         {
           "description": "Content",
           "name": "content",
