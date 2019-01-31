@@ -1,4 +1,5 @@
 # tuui-vue
+> A Vue.js 2.5 Component Library for Web
 
 ## Project setup
 ```
@@ -28,4 +29,14 @@ yarn run lint
 ### Run your unit tests
 ```
 yarn run test:unit
+```
+
+### Deploy
+```
+yarn run deploy
+```
+
+## Solve some problems
+```
+yarn add -D vue-loader@14.2.2
 ```
