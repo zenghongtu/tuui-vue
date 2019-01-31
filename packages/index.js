@@ -2,7 +2,6 @@
  * Created by zenghongtu on 26/10/2018.
  * Desc: index
  */
-import 'vue2-animate/dist/vue2-animate.css';
 import Button from './button/index';
 import ButtonGroup from './button-group/index';
 import ButtonList from './button-list/index';
