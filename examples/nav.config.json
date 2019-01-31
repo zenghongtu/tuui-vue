@@ -7,22 +7,17 @@
           "description": "Layout",
           "name": "layout",
           "path": "/layout"
-        },
-        {
-          "description": "Button 按钮",
-          "name": "button",
-          "path": "/button"
-        },
-        {
-          "description": "Icon",
-          "name": "icon",
-          "path": "/icon"
         }
       ]
     },
     {
       "name": "elements",
       "groups": [
+        {
+          "description": "Button 按钮",
+          "name": "button",
+          "path": "/button"
+        },
         {
           "description": "Box",
           "name": "box",
@@ -37,6 +32,11 @@
           "description": "Delete",
           "name": "delete",
           "path": "/delete"
+        },
+        {
+          "description": "Icon",
+          "name": "icon",
+          "path": "/icon"
         },
         {
           "description": "Image",
