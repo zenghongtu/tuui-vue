@@ -12,8 +12,6 @@ import Icon from './icon/index';
 import Image from './image/index';
 import Notification from './notification/index';
 import Progress from './progress/index';
-import Col from './col/index';
-import Row from './row/index';
 
 const components = [
   Button,
@@ -26,8 +24,6 @@ const components = [
   Image,
   Notification,
   Progress,
-  Col,
-  Row,
 ];
 
 
@@ -56,8 +52,6 @@ export {
   Image,
   Notification,
   Progress,
-  Col,
-  Row,
 };
 
 export default {

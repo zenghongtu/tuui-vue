@@ -1,16 +1,6 @@
 {
   "documentation": [
     {
-      "name": "basic",
-      "groups": [
-        {
-          "description": "Layout",
-          "name": "layout",
-          "path": "/layout"
-        }
-      ]
-    },
-    {
       "name": "elements",
       "groups": [
         {
