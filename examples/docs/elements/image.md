@@ -1,7 +1,18 @@
+### Image
+
 <tu-image :size="24" url="https://bulma.io/images/placeholders/24x24.png"></tu-image>
 <tu-image :size="128" url="https://bulma.io/images/placeholders/24x24.png"></tu-image>
 <tu-image :size="128" url="https://bulma.io/images/placeholders/128x128.png" :rounded="true"></tu-image>
 <tu-image  url="https://bulma.io/images/placeholders/128x128.png" :rounded="true" ratio="5by4"></tu-image>
+
+:::demo
+```html
+<tu-image :size="24" url="https://bulma.io/images/placeholders/24x24.png"></tu-image>
+<tu-image :size="128" url="https://bulma.io/images/placeholders/24x24.png"></tu-image>
+<tu-image :size="128" url="https://bulma.io/images/placeholders/128x128.png" :rounded="true"></tu-image>
+<tu-image  url="https://bulma.io/images/placeholders/128x128.png" :rounded="true" ratio="5by4"></tu-image>
+```
+:::
 
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |

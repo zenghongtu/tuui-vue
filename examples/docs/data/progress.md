@@ -1,7 +1,16 @@
+### Progress
+
 <tu-progress color='primary'  ></tu-progress>
 <tu-progress color="dark" size="large" :value="60"></tu-progress>
 <tu-progress color="light" size="large" :value="60" :max="60"></tu-progress>
 
+:::demo
+```html
+<tu-progress color='primary'  ></tu-progress>
+<tu-progress color="dark" size="large" :value="60"></tu-progress>
+<tu-progress color="light" size="large" :value="60" :max="60"></tu-progress>
+```
+:::
 
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |

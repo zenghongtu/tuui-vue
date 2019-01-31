@@ -6,8 +6,11 @@
 <template>
   <header class="page-header">
     <div class="header-container">
-      <img src="../assets/logo.png" width="200">
-      <p>组件</p>
+      <a href="/">
+      <img src="../assets/logo.png" width="80">
+       <span style="font-size: 30px;color:#14c2c3;margin-left:-30px;"> Tuui</span>
+      </a>
+      <!--<p>组件</p>-->
     </div>
   </header>
 </template>
