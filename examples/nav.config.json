@@ -37,11 +37,6 @@
           "description": "Progress",
           "name": "progress",
           "path": "/progress"
-        },
-        {
-          "description": "Tag",
-          "name": "tag",
-          "path": "/tag"
         }
       ]
     },
