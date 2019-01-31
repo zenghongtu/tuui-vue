@@ -1,28 +1,16 @@
-### Layout
 
 <tu-row  :gapless="false" :multiline="true">
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
+    <tu-col :narrow="true">hello</tu-col>
+    <tu-col ><tu-button>hello</tu-button></tu-col>
+    <tu-col><tu-button>hello</tu-button></tu-col>
+    <tu-col><tu-button>hello</tu-button></tu-col>
+    <tu-col><tu-button>hello</tu-button></tu-col>
+    <tu-col><tu-button>hello</tu-button></tu-col>
+    <tu-col><tu-button>hello</tu-button></tu-col>
+    <tu-col><tu-button>hello</tu-button></tu-col>
 </tu-row>
 
-:::demo
-```html
-<tu-row  :gapless="false" :multiline="true">
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-    <tu-col><tu-button>col </tu-button></tu-col>
-</tu-row>
-```
-:::
+
 
 ### Row Attributes
 

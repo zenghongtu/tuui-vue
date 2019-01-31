@@ -1,20 +1,9 @@
-### Breadcrumb
 
 <tu-breadcrumb separator="arrow">
     <tu-breadcrumb-item :to="{}">hello</tu-breadcrumb-item>
     <tu-breadcrumb-item>hello1</tu-breadcrumb-item>
     <tu-breadcrumb-item>hello2</tu-breadcrumb-item>
 </tu-breadcrumb>
-
-:::demo
-```html
-<tu-breadcrumb separator="arrow">
-    <tu-breadcrumb-item :to="{}">hello</tu-breadcrumb-item>
-    <tu-breadcrumb-item>hello1</tu-breadcrumb-item>
-    <tu-breadcrumb-item>hello2</tu-breadcrumb-item>
-</tu-breadcrumb>
-```
-:::
 
 ### Breadcrumb Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |

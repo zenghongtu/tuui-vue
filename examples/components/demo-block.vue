@@ -37,10 +37,6 @@
 </script>
 
 <style>
-  .docs-demo-wrapper{
-    margin:20px;
-  }
-
   .demo-container {
     transition: max-height .3s ease;
     overflow: hidden;
@@ -66,7 +62,7 @@
     width: 100%;
     text-align: center;
     display: inline-block;
-    color: #4857d9;
+    color: #C5D9E8;
     font-size: 12px;
     padding: 10px 0;
     background-color: #FAFBFC;

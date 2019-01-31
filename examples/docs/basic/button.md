@@ -1,17 +1,7 @@
-## Button
-
-<tu-button>hello world</tu-button>
-
-:::demo
-```html
-<tu-button>hello world</tu-button>
-```
-:::
-
+## Button 按钮
+常用的操作按钮。
 
 ### 基础用法
-
-使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
 
 基础的按钮用法。
 
@@ -28,23 +18,11 @@
     <tu-button icon="fas fa-underline" color="dark" size="small">hello</tu-button>
 </tu-button-list>
 
-:::demo
+:::demo 使用`type`、`plain`、`round`和`circle`属性来定义 Button 的样式。
 ```html
-<tu-button icon="fas fa-underline" color="white" :round="true"  size="small"></tu-button>
-
-<tu-button-group :addon="true">
-    <tu-button icon="fas fa-underline" color="white" size="small">hello</tu-button>
-    <tu-button icon="fas fa-underline" color="dark" size="small">hello</tu-button>
-    <tu-button icon="fas fa-underline" color="light" size="small">hello</tu-button>
-</tu-button-group>
-
-<tu-button-list :addon="true" align="right">
-    <tu-button icon="fas fa-underline" color="white" size="small" :selected="true">hello</tu-button>
-    <tu-button icon="fas fa-underline" color="dark" size="small">hello</tu-button>
-</tu-button-list>
+<tu-button>hello world</tu-button>
 ```
 :::
-
 
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |

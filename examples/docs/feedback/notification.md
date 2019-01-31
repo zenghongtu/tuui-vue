@@ -1,5 +1,3 @@
-### Notification
-
 <tu-button
 @click="open">
 可自动关闭
@@ -27,37 +25,6 @@ export default {
   };
 </script>
 
-
-:::demo
-```html
-<tu-button
-@click="open">
-可自动关闭
-</tu-button>
-<script>
-export default {
-    methods: {
-      open() {
-        this.$notify({
-          color: 'dark',
-          title: '提示',
-          content: '这是一条会自动关闭的消息',
-          position: 'top-center'
-        });
-         this.$notify({
-          color: 'primary',
-          title: '提示',
-          content: '这是一条会自动关闭的消息',
-          position: 'top-left',
-          icon:'ban'
-        });
-
-      },
-    }
-  };
-</script>
-```
-:::
 
 
 ### Attributes

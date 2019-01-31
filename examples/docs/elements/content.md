@@ -1,5 +1,3 @@
-### Content
-
 <tu-content class="content" size="large">
   <ol type="1">
     <li>Coffee</li>
@@ -29,38 +27,6 @@
 </tu-content>
 
 
-
-:::demo
-```html
-<tu-content class="content" size="large">
-  <ol type="1">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ol>
-  <ol type="A">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ol>
-  <ol type="a">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ol>
-  <ol type="I">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ol>
-  <ol type="i">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ol>
-</tu-content>
-```
-:::
 
 
 ### Attributes

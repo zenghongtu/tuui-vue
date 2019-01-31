@@ -1,15 +1,6 @@
-### Alert
-
 <tu-alert  color="light" :showIcon="true" title="hello world" description="descriptiondescription">
 </tu-alert>
 
-
-:::demo
-```html
-<tu-alert  color="light" :showIcon="true" title="hello world" description="descriptiondescription">
-</tu-alert>
-```
-:::
 
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |

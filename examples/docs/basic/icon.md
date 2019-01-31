@@ -1,21 +1,8 @@
-## Icon
-
 <tu-icon icon="home"></tu-icon>
 <tu-icon icon="home" color="info"></tu-icon>
 <tu-icon icon="home" color="info" :fixed="true" :bordered="true"></tu-icon>
 <tu-icon icon="home" size="large" iconSize="3x"></tu-icon>
 <tu-icon icon="home" size="large" :animated="true"></tu-icon>
-
-:::demo
-```html
-<tu-icon icon="home"></tu-icon>
-<tu-icon icon="home" color="info"></tu-icon>
-<tu-icon icon="home" color="info" :fixed="true" :bordered="true"></tu-icon>
-<tu-icon icon="home" size="large" iconSize="3x"></tu-icon>
-<tu-icon icon="home" size="large" :animated="true"></tu-icon>
-```
-:::
-
 
 ### Attributes
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
