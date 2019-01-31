@@ -31,6 +31,7 @@ const components = [
   Delete,
   Icon,
   Image,
+  Notification,
   Progress,
   Col,
   Row,
@@ -47,7 +48,6 @@ const install = (Vue) => {
   components.forEach((component) => {
     Vue.component(component.name, component);
   });
-  Vue.prototype.$notify = Notification;
 };
 
 if (typeof window !== 'undefined' && window.Vue) {
