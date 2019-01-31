@@ -77,6 +77,7 @@ const mdOptions = {
 
 
 module.exports = {
+  baseUrl: process.env.NODE_ENV === 'production'?'/tuui-vue/':'/',
   lintOnSave: false,
   chainWebpack: (config) => {
     config

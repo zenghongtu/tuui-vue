@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
@@ -25,12 +26,14 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
     "cheerio": "^1.0.0-rc.2",
+    "gh-pages": "^2.0.1",
     "lint-staged": "^7.2.2",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-container": "^2.0.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "vue-loader": "14.2.2",
     "vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.5.17"
   },
