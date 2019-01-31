@@ -21,8 +21,8 @@
       ]
     },
     {
-      "name": "navigation",
-      "groups": [
+      "name":"navigation",
+      "groups":[
         {
           "description": "Breadcrumb",
           "name": "breadcrumb",
@@ -31,8 +31,8 @@
       ]
     },
     {
-      "name": "data",
-      "groups": [
+      "name":"data",
+      "groups":[
         {
           "description": "Progress",
           "name": "progress",
@@ -72,16 +72,6 @@
           "description": "Progress",
           "name": "progress",
           "path": "/progress"
-        }
-      ]
-    },
-    {
-      "name": "feedback",
-      "groups": [
-        {
-          "description": "Alert",
-          "name": "alert",
-          "path": "/alert"
         }
       ]
     }
