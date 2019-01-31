@@ -14,31 +14,6 @@
 <tu-tag  :closable="true" delete-btn-size="small">
   Tag label
 </tu-tag>
-<br>
-<tu-tag-list >
-<tu-tag :closable="true" delete-btn-size="small" >
-  Tag label
-</tu-tag>
-<tu-tag :closable="true" delete-btn-size="small" >
-  Tag label
-</tu-tag>
-<tu-tag :closable="true" delete-btn-size="small" >
-  Tag label
-</tu-tag>
-<tu-tag :closable="true" delete-btn-size="small" >
-  Tag label
-</tu-tag>
-
-</tu-tag-list>
-<br>
-<tu-tag-list :addon="true" >
-<tu-tag  >
-  Tag label
-</tu-tag>
-<tu-tag  color="dark">
-  Tag label
-</tu-tag>
-</tu-tag-list>
 
 ### Attributes
 | 参数      | 说明          | 类型      | 可选值                           | 默认值  |
